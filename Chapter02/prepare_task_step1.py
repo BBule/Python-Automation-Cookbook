@@ -1,5 +1,5 @@
 import argparse
-
+import pickle
 
 def main(number, other_number):
     result = number * other_number
