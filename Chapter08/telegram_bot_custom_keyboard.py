@@ -74,7 +74,7 @@ class MarketingBot(telepot.helper.ChatHandler):
         message = COMMANDS[command]()
         self.sender.sendMessage(message, reply_markup=KEYBOARD)
 
-    def on__idle(self, event):
+    def on__idle(self):
         self.close()
 
 
