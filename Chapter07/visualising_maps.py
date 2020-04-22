@@ -24,8 +24,6 @@ COUNTRIES_POPULATION = {
 MAX_POPULATION = max(COUNTRIES_POPULATION.values())
 MIN_POPULATION = min(COUNTRIES_POPULATION.values())
 
-import os
-
 # STEP 3
 colormap = cm.get_cmap('Greens')
 COUNTRY_COLOUR = {
