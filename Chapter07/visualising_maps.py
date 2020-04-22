@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import fiona
-import pickle
 
 # STEP 2
 COUNTRIES_POPULATION = {
@@ -24,6 +23,8 @@ COUNTRIES_POPULATION = {
 }
 MAX_POPULATION = max(COUNTRIES_POPULATION.values())
 MIN_POPULATION = min(COUNTRIES_POPULATION.values())
+
+import os
 
 # STEP 3
 colormap = cm.get_cmap('Greens')
