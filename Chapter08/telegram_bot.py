@@ -2,8 +2,6 @@ import time
 import telepot
 from telepot.loop import MessageLoop
 from telepot.delegate import per_chat_id, create_open, pave_event_space
-import pickle
-
 
 TOKEN = '<YOUR TOKEN>'
 
