@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import fiona
+import pickle
 
 # STEP 2
 COUNTRIES_POPULATION = {
